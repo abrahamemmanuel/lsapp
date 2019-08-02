@@ -4,7 +4,7 @@
     <h1>Posts</h1>
     @if (count($posts) > 0)
         @foreach ($posts as $post)
-          <div class="jumbotron mb-3">
+          <div class="jumbotron mb-3 p-4">
             <h3><a href="/posts/{{$post->id}}">{{$post->title}}</a></h3>
             <small>{{$post->created_at}}</small>
           </div> 
