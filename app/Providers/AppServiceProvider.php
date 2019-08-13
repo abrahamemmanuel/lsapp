@@ -3,7 +3,7 @@
 namespace App\Providers;
 
 use Illuminate\Support\ServiceProvider;
-use Illuminate\support\Facades\Schema;
+use Illuminate\Support\Facades\Schema;
 use Illuminate\Collective\Html\HtmlServiceProvider;
 
 class AppServiceProvider extends ServiceProvider
